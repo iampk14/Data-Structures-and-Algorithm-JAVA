@@ -1,5 +1,8 @@
 package Searching_Algorithm;
 
+
+// Time Complexity O(log N)
+// Apply only on sorted array
 public class Binary_Search {
 	static int isFound(int[] arr, int n, int key) {
 		int ans=-1;
